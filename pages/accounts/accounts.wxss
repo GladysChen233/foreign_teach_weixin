@@ -6,7 +6,7 @@
 }
 
 .body{
-  background-color: #F3F3F3;
+  background-color: #F7FBFE;
   width: 100%;
   display: block;
 }
@@ -152,6 +152,7 @@
   height: 43rpx;
   width: 43rpx;
   margin-right: 20rpx;
+  color: #777;
 }
 
 .callback text{
