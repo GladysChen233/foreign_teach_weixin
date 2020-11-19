@@ -6,6 +6,23 @@
   float: right;
 }
 
+.page .errP{
+  float: right;
+  background-color: white;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.errP text{
+  padding-bottom: 50px;
+  font-size: 20px;
+  color: #333;
+  font-weight: bold;
+}
+
 .tab-active-class{
   font-size: 40rpx;
 }
@@ -44,13 +61,14 @@
   color: #323232!important;
   font-weight: bold;
   font-size: 28rpx;
+  max-lines: 2;
 }
 
 .courseItem .case{
   display: flex;
   color: #9B9B9B;
   align-items: center;
-  margin-top: 7px;
+  margin-top: 3px;
 
 }
 
@@ -78,13 +96,13 @@
 }
 
 .cost{
-  margin-top: 7px;
+  /* margin-top: 3px; */
 }
 
 .loadModel{
   position: absolute;
   right: 0;
-  background: rgba(255,255,255,.9);
+  background: rgba(255,255,255,1);
   will-change: opacity;
   transition: opacity .3s;
 }

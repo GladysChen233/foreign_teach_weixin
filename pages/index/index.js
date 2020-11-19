@@ -1,6 +1,7 @@
 //index.js
 import create from '../../utils/create'
 import store from '../../store'
+import Api from '../../utils/api'
 var QQMapWX = require('../../libs/qqmap-wx-jssdk.min.js');
 
 //获取应用实例
@@ -43,6 +44,7 @@ create(store, {
     screenWidth: app.globalData.screenWidth
   },
   onLoad: function () {
+    console.log("主页加载")
     //获取当前位置P
     this.getLocation()
     //判断滚动
